@@ -11,9 +11,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Interfaces Adapters", "3.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Frameworks And Drivers", "4.Frameworks And Drivers", "{8C2A61E5-C015-4F94-AF77-524F318E7629}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Entities", "NorthWind.Sales.Entities\NorthWind.Sales.Entities.csproj", "{B2B4ECBB-AFE2-458A-93BB-C03DE8200210}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2B4ECBB-AFE2-458A-93BB-C03DE8200210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B4ECBB-AFE2-458A-93BB-C03DE8200210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B4ECBB-AFE2-458A-93BB-C03DE8200210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B4ECBB-AFE2-458A-93BB-C03DE8200210}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2B4ECBB-AFE2-458A-93BB-C03DE8200210} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BB8CA49-A4B9-415C-A404-5C4F608CB011}
